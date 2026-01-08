@@ -5,7 +5,7 @@ title: Members
 
 ### Raunak Basu, PhD  
 **Principal Investigator**  
-[Curriculum Vitae (PDF)](/assets/cv/Raunak_Basu_CV.pdf)
+[Curriculum Vitae (PDF)](/assets/cv/CV_RaunakBasu.pdf)
 
 ---
 
