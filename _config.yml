@@ -1,0 +1,16 @@
+title: Basu Neuro Lab
+description: Neural mechanisms of navigation and decision-making
+theme: minima
+markdown: kramdown
+
+author:
+  name: Raunak Basu
+
+header_pages:
+  - research.md
+  - members.md
+  - publications.md
+  - join.md
+  - news.md
+  - photos.md
+  - contact.md
