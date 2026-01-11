@@ -3,4 +3,6 @@ layout: page
 title: Lab Photos
 ---
 
-<!-- Images only -->
+<img src="/assets/images/lab1.jpg">
+<br><br>
+<img src="/assets/images/lab2.jpg">
