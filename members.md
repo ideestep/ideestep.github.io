@@ -3,18 +3,25 @@ layout: page
 title: Members
 ---
 
-### Raunak Basu, PhD  
-**Principal Investigator**  
-[Curriculum Vitae (PDF)](/assets/cv/CV_RaunakBasu.pdf)
+<div class="member-grid">
 
----
+<div class="member">
+<img src="/assets/images/members/raunak.jpg">
+<strong>Raunak Basu, PhD</strong><br>
+Principal Investigator<br>
+<a href="/assets/cv/Raunak_Basu_CV.pdf">CV</a>
+</div>
 
-### Ivon Ben-Zaken  
+<div class="member">
+<img src="/assets/images/members/ivon.jpg">
+<strong>Ivon Ben-Zaken</strong><br>
 Lab Manager
+</div>
 
----
+</div>
 
-### PhD Students
+## PhD Students
+
 - Abhishek Jangid  
 - Miada Abu-Salih  
 - Francis Mitry  
