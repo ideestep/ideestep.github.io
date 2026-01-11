@@ -3,8 +3,17 @@ layout: page
 title: Publications
 ---
 
-- Basu, R. et al. (2025). bioRxiv  
-- Basu, R. & Ito, H.T. (2023). Curr Opin Neurobiol  
-- Basu, R. et al. (2021). Nature  
-- Basu, R. et al. (2017). Neuron  
-- Martin, E.A. et al. (2015). eLife
+**2025**  
+Basu, R.* et al.  
+_The orbitofrontal cortex forms a context-generalized spatial schema._  
+bioRxiv
+
+**2023**  
+Basu, R.* & Ito, H.T.  
+_A Goal Pointer for a Cognitive Map in the Orbitofrontal Cortex._  
+Current Opinion in Neurobiology
+
+**2021**  
+Basu, R.* et al.  
+_The orbitofrontal cortex maps future navigational goals._  
+Nature
