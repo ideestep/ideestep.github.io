@@ -6,7 +6,7 @@ title: Members
 <div class="member-grid">
 
 <div class="member">
-<img src="/assets/images/members/raunak.jpg">
+<img src="assets/images/Raunak_ps_4.jpeg">
 <strong>Raunak Basu, PhD</strong><br>
 Principal Investigator<br>
 <a href="/assets/cv/Raunak_Basu_CV.pdf">CV</a>
