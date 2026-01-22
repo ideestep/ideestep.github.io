@@ -4,72 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Basu Neuro Lab</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #222; }
-
-    header {
-      border-bottom: 2px solid #000;
-      padding: 16px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .logo {
-      font-weight: bold;
-      font-size: 1.1rem;
-    }
-
-    nav a {
-      margin-left: 20px;
-      text-decoration: none;
-      color: #000;
-      font-weight: 500;
-    }
-
-    nav a:hover { text-decoration: underline; }
-
-    .hero {
-      padding: 60px 24px;
-      border-bottom: 2px solid #000;
-      background: #f5f5f5;
-    }
-
-    .hero h1 { font-size: 2rem; margin-bottom: 12px; }
-    .hero p { max-width: 900px; }
-
-    .content {
-      display: grid;
-      grid-template-columns: 1fr 3fr;
-      gap: 32px;
-      padding: 32px 24px;
-    }
-
-    aside {
-      border-right: 2px solid #000;
-      padding-right: 16px;
-    }
-
-    aside h3 { margin-bottom: 12px; }
-    aside ul { list-style: none; }
-    aside li { margin-bottom: 8px; font-size: 0.95rem; }
-
-    main section { margin-bottom: 32px; }
-    main h2 { margin-bottom: 8px; }
-
-    footer {
-      border-top: 2px solid #000;
-      padding: 16px;
-      text-align: center;
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 768px) {
-      .content { grid-template-columns: 1fr; }
-      aside { border-right: none; border-bottom: 2px solid #000; padding-bottom: 16px; }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
