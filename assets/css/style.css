@@ -271,3 +271,33 @@ img {
   }
 }
 
+/* FOOTER */
+.site-footer {
+  background: #0f2a44;        /* deep academic blue */
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+.footer-inner {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 24px;
+  line-height: 1.6;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+
+.site-footer p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+}
+
+.footer-lab {
+  margin-top: 16px;
+  font-weight: 500;
+  opacity: 0.9;
+}
