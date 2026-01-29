@@ -1,1 +1,4 @@
+.btn-primary { background: #0f2a44; color: #fff; }
+.card img { aspect-ratio: 3 / 4; object-fit: cover; }
+.lightbox { position: fixed; inset: 0; }
 
