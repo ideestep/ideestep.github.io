@@ -65,6 +65,35 @@
   </div>
 </footer>
 
+<script>
+fetch('data/lab-photos.json')
+  .then(res => res.json())
+  .then(photos => {
+    const gallery = document.getElementById('gallery');
+
+    photos.forEach(photo => {
+      const img = document.createElement('img');
+      img.src = photo.src;
+      img.alt = photo.caption;
+      img.onclick = () => openLightbox(photo.src, photo.caption);
+      gallery.appendChild(img);
+    });
+  });
+
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.querySelector('.lightbox-img');
+const lightboxCaption = document.querySelector('.lightbox-caption');
+
+function openLightbox(src, caption) {
+  lightbox.style.display = 'flex';
+  lightboxImg.src = src;
+  lightboxCaption.textContent = caption;
+}
+
+document.querySelector('.lightbox-close').onclick = () => {
+  lightbox.style.display = 'none';
+};
+</script>
 
 
 </body>
