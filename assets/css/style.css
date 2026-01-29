@@ -305,3 +305,39 @@ body {
   cursor: pointer;
   z-index: 10;
 }
+
+.page-hero {
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-hero h1 {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 300;
+}
+
+.page-content {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+.publication-list {
+  line-height: 1.8;
+}
+
+.publication-list li {
+  margin-bottom: 2rem;
+}
+
+.author-note {
+  display: block;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.3rem;
+}
