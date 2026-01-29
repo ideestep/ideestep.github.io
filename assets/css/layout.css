@@ -1,1 +1,5 @@
+.site-header { background: #d6d9d6; }
+.page-hero { height: 55vh; background-size: cover; }
+.site-footer { background: #6f845c; }
+.container { max-width: 1200px; margin: auto; }
 
