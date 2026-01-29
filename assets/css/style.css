@@ -484,3 +484,47 @@ body {
     margin-bottom: 10px;
   }
 }
+
+/* ===== RESEARCH PAGE ===== */
+
+.page-hero {
+  width: 100%;
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-research {
+  background-image: url("../img/hero-research.jpg");
+}
+
+.research-intro {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #3a3a3a;
+}
+
+.research-columns {
+  max-width: 1200px;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  padding: 0 24px;
+}
+
+.research-columns .column h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #2e4032;
+}
+
+.research-columns .column p {
+  font-size: 1rem;
+  color: #3a3a3a;
+  line-height: 1.6;
+}
