@@ -1,13 +1,14 @@
-function loadPartial(id, file) {
+function loadHTML(id, file) {
   fetch(file)
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById(id).innerHTML = data;
+    .then(r => {
+      if (!r.ok) throw new Error(file + " not found");
+      return r.text();
     })
-    .catch(err => console.error(`Error loading ${file}`, err));
+    .then(html => document.getElementById(id).innerHTML = html)
+    .catch(err => console.error(err));
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadPartial("site-header", "partials/header.html");
-  loadPartial("site-footer", "partials/footer.html");
+  loadHTML("header", "assets/partials/header.html");
+  loadHTML("footer", "assets/partials/footer.html");
 });
